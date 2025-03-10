@@ -1,5 +1,5 @@
 # Gorgias_Portfolio
-This is a gorgeous restaurant that has everything you could want. It is made with everything you could want.
+I am always open to collaborating on projects that challenge my skills and allow me to grow as a developer. Let’s build something amazing together.
 
 <!-- 
 1.এরপর VS Code-এর টার্মিনালে যান এবং নিচের কমান্ডগুলো রান করুন—
