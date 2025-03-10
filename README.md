@@ -1,4 +1,4 @@
-# Gorgias_PORTFOLIO
+# Gorgias_Portfolio
 This is a gorgeous restaurant that has everything you could want. It is made with everything you could want.
 
 <!-- 
