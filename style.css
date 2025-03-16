@@ -69,3 +69,11 @@
 .header_contain ul li a:active{
     color: rgb(33, 71, 177);
 }
+
+.profile_image{
+    width: 24.9%;
+    position: absolute;
+    top: 0%;
+    left: 65%;
+}
+
