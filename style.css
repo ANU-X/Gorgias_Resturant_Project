@@ -71,7 +71,7 @@
 }
 
 .profile_image{
-    width: 24.9%;
+    width: 25.1%;
     position: absolute;
     top: 0%;
     left: 65%;
@@ -135,12 +135,13 @@ nav span{
     }
     .header_contain{
         position: absolute;
-        background: rgba(0, 0, 0, 0.644);
-        height: 100vh;
+        background: rgba(0, 0, 0, 0.788);
+        height: 70vh;
         width: 300px;
         top: 0;
         right: -300px;
         text-align: left;
+        transition: 2s;
         z-index: 1;
     }
 
@@ -148,5 +149,65 @@ nav span{
         display: block;
         margin: 10px 0;
     }
+
+    .header_contain ul{
+        padding: 20px;
+    }
+
+    .profile_image{
+        width: 68.9%;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+    .header_contain ul li:hover::after{
+        width: 0px;
+    }
+    .header_contain ul li a:hover{
+        color: #02a2ec;
+    }
+}
+/* __________________________________about me_________________________ */
+.about_area{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;    
+}
+
+.row{
+    display: flex;
+    margin: 4%;
+    justify-content: space-between;
+}
+.about_area h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.vector_profile_image{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin: 2%;
+    /* background: #853d3d; */
+}
+
+.vector_profile_image img{
+    width: 50%;
+    border-radius: 50%;
+    border: solid 2px rgb(233, 233, 233);
+    background: #f8f8f8;
+}
+
+
+.vector_profile_image h4{
+    margin: 10px 0;
+    text-align: left;
+}
+
+.vector_profile_image p{
+    text-align: left;
+    color: #555555;
+    line-height: 20px;
 }
 
