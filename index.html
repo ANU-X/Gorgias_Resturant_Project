@@ -17,7 +17,8 @@
     <section id="header_area">
         <nav class="nav_side">
             <h3>MD ANU MIHA</h3>
-            <div class="header_contain">
+            <div class="header_contain" id="navmanu">
+                <span onclick="hideMenu()">X</span>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -28,6 +29,7 @@
                     <li><input type="submit" name="submit" value="search"></li>
                 </ul>
             </div>
+            <span onclick="openMenu()">manu</span>
             <img class="profile_image" src="image/profile image.png" alt="imags">
         </nav>
         <div class="text_area">
@@ -36,9 +38,19 @@
             <a href="#"> Hear Me </a> &nbsp; <a href="#">About Me</a>
         </div>
     </section>
-    <section>
-        <img src="" alt="">
-    </section>
+
+
+
+    <script>
+      var navmanu = document.getElementById("navmanu")
+      
+      function openMenu() {
+        navmanu.style.right="0";
+      }
+      function hideMenu() {
+        navmanu.style.right="-300px";
+      }
+    </script>
 </body>
 </html>
 

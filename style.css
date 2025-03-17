@@ -108,4 +108,45 @@
     background: #2baaff;
     transition: 0.2s;
 }
+nav span{
+    display: none;
+}
+
+
+@media(max-width: 700px){
+    .text_area{
+        width: 90%;
+        margin-top: 6%;
+        margin-left: 4%;
+        position: absolute;
+        color: white;
+        text-align: center;
+    }
+    .text_area h1{
+        font-weight: 400;
+        letter-spacing: normal;
+    }    
+    nav span{
+        display: block;
+        color: white;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .header_contain{
+        position: absolute;
+        background: rgba(0, 0, 0, 0.644);
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: left;
+        z-index: 1;
+    }
+
+    .header_contain ul li{
+        display: block;
+        margin: 10px 0;
+    }
+}
 
