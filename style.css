@@ -77,3 +77,35 @@
     left: 65%;
 }
 
+
+.text_area{
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 4%;
+    position: absolute;
+    color: white;
+}
+.text_area h1{
+    font-weight:900;
+    letter-spacing: 2px;
+}
+
+.text_area p{
+    margin-bottom: 20px ;
+}
+.text_area a{
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    padding: 6px 16px;
+    text-decoration: none;
+    border: solid 1px white;
+    color: white;
+    position: relative;
+}
+
+.text_area a:hover{
+    background: #2baaff;
+    transition: 0.2s;
+}
+
