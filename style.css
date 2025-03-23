@@ -243,7 +243,7 @@ nav span{
 
 .qualification h4{
     text-align: left;
-    margin: 4%;
+    margin: 3%;
 }
 .qualification h3{
     text-align: left;
@@ -260,30 +260,103 @@ nav span{
 
 .qualification ul li{
     list-style: none;
-    margin-top: 20px 0; 
+    margin-top: 0px 0; 
 }
 
 
-.qualification .bar{
-    display:block;
-    height: 2px;
-    border: solid 2px rgba(0, 0, 0, 0.04);
+.qualification .bar {
+    display: block;
+    height: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.04);
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 0 4px #d5e0f5;
-}
-
-.qualification .bar span{
+    /* background-color: #f0f0f0; */
+  }
+  
+  .qualification .bar .progress {
     display: block;
-    height: 5px;
-    float: left;
-    background: #000000;
-}
-
-.Ps{
+    height: 100%;
+    background-color: #077ee0;
+    box-shadow: 0 0 4px #ff0000;
+  }
+  
+  .Ps {
     width: 90%;
+    animation: Ps 3s;
+  }
+  
+  .Ai {
+    width: 80%;
+    animation: Ai 3s;
+  }
+  
+  .Figma {
+    width: 60%;
+    animation: Figma 3s;
 }
 
-.Ai{
-    width: 50%;
+.Pr {
+    width: 20%;
+    animation: Pr 3s;
 }
+
+.Ct {
+    width: 60%;
+    animation: Ct 3s;
+  }
+
+@keyframes Ps{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Ai{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes Figma{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes Pr{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes Ct{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
+@media(max-width: 700px){
+    .my_skill_row{
+        flex-direction: column;
+    }
+}
+
