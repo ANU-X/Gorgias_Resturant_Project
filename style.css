@@ -360,3 +360,69 @@ nav span{
     }
 }
 
+/* --------------------------------------My_Service-------------------------- */
+.My_service{
+    width: 90%;
+    text-align: center;
+    margin: 4%;
+}
+
+.My_service .pra{
+    margin-bottom: 2%;
+    color: #777;
+}
+
+.service_box{
+    display: flex;
+}
+
+.My_service h2{
+    padding-bottom: 14px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.serveces{
+    flex-basis: 30%;
+    background: #1bc3f7;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+}
+
+.serveces:hover{
+    box-shadow: 0 0 10px #0e5b723b;
+}
+.serveces h3{
+    padding: 20px;
+}
+
+.serveces p{
+    text-align: justify;
+    line-height: 20px;
+    padding-bottom: 30px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+@media(max-width: 700px){
+    .service_box{
+        flex-direction: column;
+    }
+}
+
+#My_Portfolios{
+    width: 90%;
+    text-align: center;
+}
+
+.my_profile{
+    display: flex;
+}
+
+.my_profile img{
+    width: 50%;
+}
+
